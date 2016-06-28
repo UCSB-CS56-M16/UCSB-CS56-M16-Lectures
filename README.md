@@ -27,4 +27,24 @@ The first of the two ways is to *manually create a remote*.
 * The `origin` that you pull from and push to in `git pull origin master` or `git push origin master` is the repo that you *clone* from.    
 * However, you can set up other remotes manually. Here's how:
 
+```
+git remote add instructor git@github.com:UCSB-CS56-M16/UCSB-CS56-M16-Lectures.git
+```
 
+The word `instructor` here can be anything you like. It could be `lecturenotes` or `datbaldguy` or whatever.
+
+It's just a name that you give to the repo you want to pull new content from.
+
+You then use it in place of `origin` like this:
+
+```
+git pull instructor master`
+```
+
+or  `git pull lecturenotes master` or `git pull datbaldguy master` or whatever.
+
+# Second way: Pull Requests
+
+The other way is done through the github web page.  You can create a "pull request" from any branch of any repo that you can see, to any other branch of any repo you can see.    Normally, you do this when you do NOT have write access to the repo that you want to write new changes into.  But, there's nothing stopping you from making a pull request into your OWN repo from the instructor's repo, and then accepting that pull request.
+
+I won't detail the instructions of how to do that here.   We might demo that later in the course.   If we do, we can link to those instructions from this page.
