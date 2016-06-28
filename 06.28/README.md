@@ -30,3 +30,26 @@ So, Hiranya and I discussed it, and here is what we are going to do:
 * Then we'll open a two day extension on the assignment so that you
   can update your submissions before we calculate the final grades.
 
+# Some notes on lab01
+
+In lab01, we are working with Polynomials such as:
+
+```
+ f(x) = x^2 + 3x - 5
+```
+
+In that Polynomial, we have three coefficients: 1, 3, -5
+
+But what order should we list them in?
+
+The natural order for humans that have taken high school algebra is from
+largest term down to smallest term.  
+
+But, in an array or `ArrayList` it might make sense for the coefficient to
+match the degree of the array element.
+
+
+
+
+
+
