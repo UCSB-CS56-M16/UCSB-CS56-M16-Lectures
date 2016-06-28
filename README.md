@@ -7,6 +7,10 @@ On some class days, I'll make a separate repo for that days lecture notes, or I'
 already exists.  But on other days, to save time, rather than make a new repo, I'll just make a new folder/directory
 inside this repo.
 
+The folders will have names such as 06.28 for June 28, for example.
+
+# Accesing this repo
+
 You can clone this repo, even though you have not "write" permission to it.  
 * You'll always be able to `git pull origin master` to get the latest updates, and you should do that often.
 * You won't be able to `git push origin master` though, unless you are one of the admins for the course (instructor, TA, mentor, etc.)
