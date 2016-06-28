@@ -49,7 +49,21 @@ But, in an array or `ArrayList` it might make sense for the coefficient to
 match the degree of the array element.
 
 
+# More stuff from today's lecture
+
+For the midterm: difference between capital I Integer and lowercase i int
 
 
+We also talked about:
+
+* the `this` reference
+* constructing a `result` object inside, for example, the `minus` method
+of `Polynomial`
+
+# Pair matching
+
+We did pair matching for the legacy code project, using:
+
+http://ucsb-cs56-m16.github.io/hwk/ic00/
 
 
